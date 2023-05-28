@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.news{
+
+}
+.news_top{
+ width: 100%;
+ height: 100px;
+}
+.news_bottom{
+display: grid;
+grid-template-columns: 50% 50%;
+height: 400px;
+}
+.left_top{
+    background-image: url("https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2021/5/26/913299/Ngan-Ha24.jpg");
+    background-size: cover;
+    grid-row: 1/ 4;
+    background-color: bisque;
+}
+.left_bottom{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnI1VPlKyFrCh35t98X5tJC1vm6U7Ami-Muw&usqp=CAU");
+background-size: cover;
+}
+
+.right_bottom{
+    grid-row:3/ span 2 ;
+    background-color: red;
+}
